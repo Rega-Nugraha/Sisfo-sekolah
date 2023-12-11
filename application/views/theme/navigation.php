@@ -6,7 +6,7 @@
                                 <div class="header_left">
                                     <div class="logo">
                                         <a href="<?php echo base_url('');?>">
-                                            <img src="<?php echo base_url('');?>style/img/sekolah-muris-web.png" alt="">
+                                            <img src="<?php echo base_url('');?>style/img/logo.png" alt="logo" alt="logo" style="max-width: 150px; max-height: 150px;">
                                         </a>
                                     </div>
                                 </div>
@@ -14,10 +14,10 @@
                                     <div class="main-menu  d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a  href="<?php echo base_url('');?>">home</a></li>                                                
+                                                <li><a  href="<?php echo base_url('');?>">Home</a></li>                                                
                                                 <li><a href="#">Profile <i class="ti-angle-down"></i></a>
                                                     <ul class="submenu">
-                                                        <li><a href="<?php echo site_url('about');?>">Tentang</a></li>
+                                                        <li><a href="<?php echo site_url('about');?>">Tentang Kami</a></li>
                                                         
                                                         <li><a href="<?php echo site_url('guru');?>">Daftar Guru</a></li>
                                                         <li><a href="<?php echo site_url('contact');?>">Kontak Kami</a></li>
@@ -34,9 +34,8 @@
                                                 
                                                 
                                                 
-                                                <li><a href="<?php echo site_url('download');?>">Download</a></li>
+                                                <li><a href="<?php echo site_url('download');?>">Download File</a></li>
                                                 <li><a href="<?php echo site_url('blog');?>">Berita</a></li>
-                                                <li><a href="<?php echo site_url('video');?>">Video Belajar</a></li>
                                             </ul>
                                         </nav>
                                     </div>

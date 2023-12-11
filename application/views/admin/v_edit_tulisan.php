@@ -38,7 +38,7 @@
             <!-- /.col -->
             <div class="col-md-2">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-flat pull-right"><span class="fa fa-pencil"></span> Publish</button>
+                <button type="submit" class="btn btn-primary btn-flat pull-right"><span class="fa fa-pencil"></span> Update</button>
               <!-- /.form-group -->
             </div>
             <!-- /.col -->

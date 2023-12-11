@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text">
-                        <h3>Kumpulan Berita Sekolah</h3>
+                        <h3>Berita Sekolah</h3>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,6 @@
                                 <?php echo limit_words($row->tulisan_isi,10).'...';?>
                                 <ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> <?php echo $row->tulisan_kategori_nama;?></a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> <?php echo $row->tulisan_author;?></a></li>
                                 </ul>
                             </div>
                         </article>

@@ -34,11 +34,9 @@
                   <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                 <tr>
-					          <th style="width:70px;">#</th>
+					          <th style="width:70px;">No</th>
                     <th>File</th>
                     <th>Tanggal Post</th>
-                    <th>Oleh</th>
-                    <th>Download</th>
                     <th style="text-align:right;">Aksi</th>
                 </tr>
                 </thead>
@@ -50,7 +48,6 @@
                        $id=$i['file_id'];
                        $judul=$i['file_judul'];
                        $deskripsi=$i['file_deskripsi'];
-                       $oleh=$i['file_oleh'];
                        $tanggal=$i['tanggal'];
                        $download=$i['file_download'];
                        $file=$i['file_data'];
@@ -59,8 +56,6 @@
                   <td><?php echo $no;?></td>
                   <td><a href="<?php echo base_url().'admin/files/download/'.$id;?>"><?php echo $judul;?></a></td>
                   <td><?php echo $tanggal;?></td>
-                  <td><?php echo $oleh;?></td>
-                  <td><?php echo $download;?></td>
                   <td style="text-align:right;">
                       <a href="#" class="btn btn-info btn-icon-split" data-toggle="modal" data-target="#ModalEdit<?php echo $id;?>">
                         <span class="icon text-white-50">
@@ -113,12 +108,7 @@
                                   <textarea class="form-control" rows="3" name="xdeskripsi" placeholder="Deskripsi ..." required></textarea>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="inputUserName" class="col-sm-4 control-label">Oleh</label>
-                                <div class="col-sm-7">
-                                  <input type="text" name="xoleh" class="form-control" id="inputUserName" placeholder="Oleh" required>
-                                </div>
-                            </div>
+                            
                             <div class="form-group">
                                 <label for="inputUserName" class="col-sm-4 control-label">File</label>
                                 <div class="col-sm-7">
@@ -142,7 +132,6 @@
                 $id=$i['file_id'];
                 $judul=$i['file_judul'];
                 $deskripsi=$i['file_deskripsi'];
-                $oleh=$i['file_oleh'];
                 $tanggal=$i['tanggal'];
                 $download=$i['file_download'];
                 $file=$i['file_data'];
@@ -173,12 +162,6 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputUserName" class="col-sm-4 control-label">Oleh</label>
-                                <div class="col-sm-7">
-                                  <input type="text" name="xoleh" class="form-control" value="<?php echo $oleh;?>" id="inputUserName" placeholder="Oleh" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
                                 <label for="inputUserName" class="col-sm-4 control-label">File</label>
                                 <div class="col-sm-7">
                                   <input type="file" name="filefoto">
@@ -201,7 +184,6 @@
                 $id=$i['file_id'];
                 $judul=$i['file_judul'];
                 $deskripsi=$i['file_deskripsi'];
-                $oleh=$i['file_oleh'];
                 $tanggal=$i['tanggal'];
                 $download=$i['file_download'];
                 $file=$i['file_data'];

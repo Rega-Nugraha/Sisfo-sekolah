@@ -55,10 +55,5 @@ class M_tulisan extends CI_Model{
 		return $hsl;
 	}
 
-	function show_komentar_by_tulisan_id($kode){
-		$hsl=$this->db->query("SELECT * FROM tbl_komentar WHERE komentar_tulisan_id='$kode' AND komentar_status='1' AND komentar_parent='0'");
-		return $hsl;
-	}
-
 
 }

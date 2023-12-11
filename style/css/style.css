@@ -1317,15 +1317,11 @@ h3 {
 }
 
 /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
-.slider_bg_1 {
-  background-image: url(../img/banner/sekolah-muris-walpaper.jpg);
-    
+.slider_bg1 {
+  background-image: url(../img/banner/utama.png);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
-.slider_bg_2 {
-  background-image: url(../img/banner/sekolah-muris-walpaper.jpg);
-}
 
 /* line 8, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_slider.scss */
 .slider_area .single_slider {
@@ -2632,7 +2628,9 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/sekolah-muris-walpaper.jpg);
+  background-image: url(../img/banner/berita.jpg);
+  width: 1350px;
+  height: 450px;
 }
 
 /* line 5, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_bradcam.scss */

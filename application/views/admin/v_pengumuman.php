@@ -34,7 +34,7 @@
                   <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                 <tr>
-					          <th style="width:70px;">#</th>
+					          <th style="width:70px;">No</th>
                     <th>Judul</th>
                     <th>Deskripsi</th>
                     <th>Tanggal Post</th>

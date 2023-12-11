@@ -18,7 +18,6 @@
                      </h2>
                      <ul class="blog-info-link mt-3 mb-4">
                         <li><a href="#"><i class="fa fa-user"></i> <?php echo $kategori;?></a></li>
-                        <li><a href="#"><i class="fa fa-comments"></i> <?php echo $author;?></a></li>
                      </ul>
                      <?php echo $blog;?>
                      

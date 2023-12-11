@@ -159,7 +159,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary btn-flat" id="simpan">Simpan</button>
+                        <button type="submit" class="btn btn-primary btn-flat" id="simpan">Update</button>
                     </div>
                     </form>
                 </div>
@@ -184,7 +184,7 @@
                     <form class="form-horizontal" action="<?php echo base_url().'admin/mapel/hapus_mapel'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
 							       <input type="hidden" name="kode" value="<?php echo $mapel_id;?>"/>
-                            <p>Apakah Anda yakin mau menghapus Posting <b><?php echo $nama_mapel;?></b> ?</p>
+                            <p>Apakah Anda yakin mau menghapus Mapel <b><?php echo $nama_mapel;?></b> ?</p>
 
                     </div>
                     <div class="modal-footer">

@@ -34,7 +34,7 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                 <tr>
-					          <th>#</th>
+					          <th>No</th>
                     <th>Agenda</th>
                     <th>Tanggal</th>
                     <th>Tempat</th>
@@ -299,7 +299,7 @@
                     <form class="form-horizontal" action="<?php echo base_url().'admin/agenda/hapus_agenda'?>" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
 							<input type="hidden" name="kode" value="<?php echo $agenda_id;?>"/>
-                            <p>Apakah Anda yakin mau menghapus Pengguna <b><?php echo $agenda_nama;?></b> ?</p>
+                            <p>Apakah Anda yakin mau menghapus <b><?php echo $agenda_nama;?></b> ?</p>
 
                     </div>
                     <div class="modal-footer">

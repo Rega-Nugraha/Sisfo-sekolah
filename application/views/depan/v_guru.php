@@ -4,7 +4,7 @@
                 <div class="col-lg-12">
                     <div class="section_title text-center">
                         <h3>DAFTAR GURU</h3>
-                        <p>Daftar Guru Sekolah Di Muris Studio</p>
+                        <p>Daftar Guru SMPI AL-HUDRI WALIBRAH</p>
                         <br><br>
                     </div>
                 </div>

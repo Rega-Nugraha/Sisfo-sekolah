@@ -25,7 +25,7 @@
             <div class="card-body">
                 
             <div class="box-header">
-              <a href="" class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-user-plus"></span> Add Pengguna</a>
+              <a href="" class="btn btn-success btn-flat" data-toggle="modal" data-target="#myModal"><span class="fa fa-user-plus"></span> Tambah Pengguna</a>
             </div>
                 
                 <br>
@@ -79,13 +79,6 @@
                           <i class="fas fa-info-circle"></i>
                         </span>
                         <span class="text">Edit</span>
-                      </a>
-                      
-                      <a href="<?php echo base_url().'admin/pengguna/reset_password/'.$pengguna_id;?>" class="btn btn-info btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-fa-refresh"></i>
-                        </span>
-                        <span class="text">Reset</span>
                       </a>
                       
                       <a href="#" class="btn btn-danger btn-icon-split" data-toggle="modal" data-target="#ModalHapus<?php echo $pengguna_id;?>">
@@ -176,7 +169,6 @@
                                         <div class="col-sm-7">
                                             <select class="form-control" name="xlevel" required>
                                                 <option value="1">Administrator</option>
-                                                <option value="2">Author</option>
                                             </select>
                                         </div>
                                     </div>
@@ -288,10 +280,8 @@
                                             <select class="form-control" name="xlevel" required>
 											<?php if($pengguna_level=='1'):?>
                                                 <option value="1" selected>Administrator</option>
-                                                <option value="2">Author</option>
-											<?php else:?>
+                                            <?php else:?>
 												<option value="1">Administrator</option>
-                                                <option value="2" selected>Author</option>
 											<?php endif;?>
                                             </select>
                                         </div>
@@ -350,35 +340,3 @@
         </div>
 	<?php endforeach;?>
 
-	<!--Modal Reset Password-->
-        <div class="modal fade" id="ModalResetPassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-                        <h4 class="modal-title" id="myModalLabel">Reset Password</h4>
-                    </div>
-
-                    <div class="modal-body">
-
-                            <table>
-                                <tr>
-                                    <th style="width:120px;">Username</th>
-                                    <th>:</th>
-                                    <th><?php echo $this->session->flashdata('uname');?></th>
-                                </tr>
-                                <tr>
-                                    <th style="width:120px;">Password Baru</th>
-                                    <th>:</th>
-                                    <th><?php echo $this->session->flashdata('upass');?></th>
-                                </tr>
-                            </table>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-
-                </div>
-            </div>
-        </div>

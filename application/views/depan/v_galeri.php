@@ -3,7 +3,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10">
                     <div class="section_title text-center mb-70">
-                        <h3 class="mb-45">GALERI KEGIATAN SEKOLAH</h3>
+                        <h3 class="mb-45">GALERI SEKOLAH</h3>
                         
                     </div>
                 </div>

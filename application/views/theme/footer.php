@@ -8,7 +8,9 @@
                             <h3 class="footer_title">
                                 Tentang Kami
                             </h3>
-                            <img width="150" src="<?php echo base_url('');?>style/img/tut-wuri-handayani-7759.png" class="rounded" alt="Muris Studio">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magnam itaque aperiam enim reiciendis totam nostrum aut sed ex assumenda!
+                            </p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
@@ -32,9 +34,9 @@
                             </h3>
                             <ul>
                                 <li><a href="<?php echo site_url('guru');?>">Daftar Guru</a></li>
-                          <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
-                          <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
-                          <li><a href="<?php echo site_url('download');?>">Download File</a></li>
+                                <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
+                                <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
+                                <li><a href="<?php echo site_url('download');?>">Download File</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,24 +47,22 @@
                             </h3>
                             
                         <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <span class="contact-info__icon"><i class="flaticon-placeholder"></i></span>
                             <div class="media-body">
-                                
-                                <p>MURIS STUDIO</p>
+                                <p> Kp. Kali Ulu RT.02/01, Karangraharja, Kec. Cikarang Utara, Kab. Bekasi Prov. Jawa Barat</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                
-                                <p>Call : 0857 9969 6924</p>
+                                <p>089623772786</p>
+                                <p>089602836954</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                
-                                <p>suryaciptainformatika@gmail.com</p>
+                                <p>alhudriwalibrah2001@gmail.com</p>
                             </div>
                         </div>
                     
@@ -78,7 +78,7 @@
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://suryaciptainformatika.com/" target="_blank">Sekolah Teknologi Muris</a> </p>
+                            Copyright &copy;Al-Hudri Walibrah</p>
                         </p>
                     </div>
                 </div>

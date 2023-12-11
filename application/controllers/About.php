@@ -11,7 +11,6 @@ class About extends CI_Controller{
         
         
 		$this->data['tot_guru']=$this->db->get('tbl_guru')->num_rows();
-		$this->data['tot_siswa']=$this->db->get('tbl_siswa')->num_rows();
 		$this->data['tot_files']=$this->db->get('tbl_files')->num_rows();
 		$this->data['tot_agenda']=$this->db->get('tbl_agenda')->num_rows();
         

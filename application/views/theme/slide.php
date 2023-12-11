@@ -6,8 +6,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h1 class="text-center text-white">SEKOLAH TEKNOLOGI MURIS </h1>
-                                <h2 class="text-center text-white">Memajukan Dunia Pendidikan Menggunakan Teknologi </h2>
+                                <h1 class="text-center text-white">SMPI AL-HUDRI WALIBRAH </h1>
+                                <h2 class="text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aperiam minus impedit asperiores deserunt qui, adipisci temporibus error aut animi! </h2>
                             </div>
                         </div>
                     </div>
